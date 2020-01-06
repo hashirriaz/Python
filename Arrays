@@ -1,0 +1,14 @@
+from numpy import *
+
+arr1 = array([
+            [1,2],
+            [4,5]
+])
+arr2 = array([
+            [4,1],
+            [4,6]
+])
+
+m = matrix(arr1)
+n = matrix(arr2)
+print(m*n)
